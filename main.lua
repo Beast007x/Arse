@@ -15,9 +15,9 @@ local UserInputService=game:GetService("UserInputService")
 local BodyVelocity=Instance.new("BodyVelocity")
 local SecureFolder=Instance.new("Folder",workspace)
 local NoAnimation=Instance.new("Animation",game.CoreGui)
-local NotifyLib=loadstring(game:HttpGet("https://raw.githubusercontent.com/vKhonshu/intro/main/ui"))()
-local api=loadstring(game:HttpGet("https://raw.githubusercontent.com/Storm99999/whitelistkeys/main/aimhook/api/corefile.lua"))()
-local beams=game:GetObjects("rbxassetid://12328085159")[1]
+local NotifyLib=loadstring(game:HttpGet("https://raw.githubusercontent.com/Beast007x/Arse/main/ui"))()
+local api=loadstring(game:HttpGet("https://raw.githubusercontent.com/Beast007x/Arse/main/core.lua"))()
+local beams=game:GetObjects("rbxassetid://12522594619")[1]
 local xonae=false or false;
 local name=""..math.random(1,100000000) -- fuck you nigger
 local name2=""..math.random(1,100000000) -- fuck you nigger
@@ -29,7 +29,7 @@ FOVCircle.Radius = 90
 FOVCircle.Color = Color3.new(255,0,255)
 BodyVelocity.MaxForce = Vector3.new(math.huge, 0, math.huge)
 NoAnimation.AnimationId = "rbxassetid://0"
-SecureFolder.Name="4564694893204234890234802948293482094820934820985092757873687984376893476893476983476983454"
+SecureFolder.Name="9358739579379573857739759378975893879573789578937573947935873958793475938535"
 shared.Settings={}
 shared.Notifier=NotifyLib
 --shared.ThirdPerson=false
@@ -61,7 +61,7 @@ function arsonfuncs:IsEmpty(v)
     return true;
 end
 function arsonfuncs:Crash()
-    loadstring(game:HttpGet("https://GANGofGANG.gog-best.repl.co/aimhook/script_assets/crasher.lua"))()    
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Beast007x/Arse/main/arsCrasher.lua"))()    
 end
 function arsonfuncs:GetVolume()
     return game.SoundService.WeaponDischarge.Volume;
@@ -111,7 +111,7 @@ HoldingAnimation.AnimationId = "rbxassetid://0"
 HoldingAnimation.Name = "45z657"
 local __scopeID = "rbxassetid://156982610"
 
-getgenv().Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/cat"))() --you can go into the github link and copy all of it and modify it for yourself.
+getgenv().Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Beast007x/Arse/main/library"))() --you can go into the github link and copy all of it and modify it for yourself.
 getgenv().Window = getgenv().Library:CreateWindow("aimhook.xyz", Vector2.new(595, 768), Enum.KeyCode.RightShift) --you can change your UI keybind
 local AimingTab = Window:CreateTab("aimbot") --you can rename this tab to whatever you want --you can also change the tabs code, for example "AimingTab" can be changed to "FunnyCoolTab" etc.
 local byTab = Window:CreateTab("bypasses") --you can rename this tab to whatever you want --you can also change the tabs code, for example "AimingTab" can be changed to "FunnyCoolTab" etc.
